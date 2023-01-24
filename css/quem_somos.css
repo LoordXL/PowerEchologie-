@@ -1,0 +1,38 @@
+.colaborador img{
+	border-radius: 50%;
+	width:150px;
+	height:150px;
+}
+
+.divcolab{
+	display: flex;
+    justify-content: space-around;
+}
+
+h1{
+	text-align:center;
+}
+
+#fullcollabdiv{
+	padding-left:200px;
+}
+
+#line1 div{
+	padding-right: 70px;
+}
+
+@media(min-width: 992px){
+	#colabspan {
+		position:relative;
+		bottom:20px;
+		left:70px;
+	}
+}
+@media(max-width: 991px){
+	.divcolab{
+		display:block;
+	}
+	#fullcollabdiv{
+		padding-left:0px;
+	}
+}

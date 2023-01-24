@@ -1,0 +1,72 @@
+@media(min-width: 992px)
+{
+	.circle{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		clip-path: circle(15% at right bottom);
+	}
+
+	.circle2{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #017143;
+		clip-path: circle(12% at left bottom);
+	}
+
+	.circle3{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #017143;
+		clip-path: circle(9% at left 25%);
+	}
+
+	.circle4{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #017143;
+		clip-path: circle(9% at right 25%);
+	}
+
+	.lixeira{
+		position: fixed;
+		bottom: 0;
+		width: 200px;
+		height: 200px;
+		right: 0;
+		margin: auto;
+	}
+
+
+	.sci{
+		position: absolute;
+		top: 50%;
+		right: 30px;
+		transform: translateY(-50%);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		filter: contrast(0) sepia(100%) hue-rotate(90deg) saturate(300%) brightness(60%);
+	}
+
+}
+
+@media(max-width: 991px)
+{
+	.lixeira{
+		max-width:310px;
+	}
+}
